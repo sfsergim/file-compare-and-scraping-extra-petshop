@@ -25,4 +25,4 @@ class Item_Result_Equal(object):
 class Item_Result_Not_Equal(object):
 
     def __init__(self, nome ):
-        self.__nome = nome          
+        self.__nome = nome
