@@ -35,4 +35,4 @@ class Compare_not_equals(object):
 class Nothing_compare(object):
 
     def compare(self, model_files):
-        return 0
+        return 0 
