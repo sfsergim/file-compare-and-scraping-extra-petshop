@@ -34,6 +34,7 @@ if __name__ == "__main__":
 
     comparetor = Compare_of_files()
 
-    desconto = comparetor.compare(model_files)
+    comparetor.compare(model_files)
+    model_files._Model_files__itens[2]._Item_Result_Equal__nome
+    model_files._Model_files__itens[3]._Item_Result_Not_Equal__nome
 
-    print( "Desconto calculado %s" % desconto)
