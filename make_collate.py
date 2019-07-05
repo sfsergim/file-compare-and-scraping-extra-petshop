@@ -1,5 +1,5 @@
 from pathlib import Path
-from Model_files import  Item_Result_Equal,Item_Result_Not_Equal
+from Model_files import  Item_Result_Equal,Item_Result_Not_Equal 
 
 class Compare_equals(object):
 
