@@ -1,5 +1,5 @@
 
-from descontos import Compare_equals, Compare_not_equals, Nothing_compare
+from make_collate import Compare_equals, Compare_not_equals, Nothing_compare
 from pathlib import Path
 
 
@@ -15,7 +15,7 @@ class Compare_of_files(object):
 
 if __name__ == "__main__":
 
-    from Model_files import Model_files, Item
+    from model_files import Model_files, Item
 
     model_files = Model_files()
 
@@ -37,4 +37,3 @@ if __name__ == "__main__":
     comparetor.compare(model_files)
     model_files._Model_files__itens[2]._Item_Result_Equal__nome
     model_files._Model_files__itens[3]._Item_Result_Not_Equal__nome
-
